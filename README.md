@@ -10,8 +10,8 @@ once the model is trained and tested, i created a flask app that lets users quer
 # the future of this application:
 right now, the flask app is minimal. its UI is not yet designed for optimal user friendliness or accessibility. i am working on improving the UI so that it is easy for users to navigate!
 # how to run this application:
-clone the repo to your local machine
-ensure you have all dependencies installed in your machine such as flask, pandas, scikit-learn, numpy, and beautifulsoup4
-run python app.py
-open the application in your web browser through the local host link
+clone the repo to your local machine,
+ensure you have all dependencies installed in your machine such as flask, pandas, scikit-learn, numpy, and beautifulsoup4, then
+run python app.py,
+open the application in your web browser through the local host link, finally, 
 query an SMS message in the URL to see the model's prediction on whether the message is spam or ham and the probability measures!
