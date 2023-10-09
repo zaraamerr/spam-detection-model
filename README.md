@@ -4,7 +4,7 @@ this is a spam-detection application built using python, scikit-learn, and flask
 # how it works:
 the machine learning model is trained on a csv file that contains around 5,700 SMS messages which are labeled either spam or ham.
 example: "Click on this link below for a FREE shopping trip with no catch! : spam
-         "I'll call you later, Becca."                                     : ham
+         "I'll call you later, Becca."                                     : ham. 
 the powerful scikit-learn library uses its algorithms for classification, regression, and anomaly detection. plain text, such as SMS messages, are turned into feature vectors that machine learning models can understand using vectorizers.
 once the model is trained and tested, i created a flask app that lets users query their own SMS message examples in the URL and the application will classify the message as spam or ham, as well as, providing the model's confidence in its prediction.
 # the future of this application:
